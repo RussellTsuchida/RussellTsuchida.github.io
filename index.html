@@ -1,1 +1,172 @@
-Hello
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+
+<div class="jumbotron text-center">
+    <div class="container"> 
+    <!--
+    <a href="/" class="lang-logo">
+      <img src="{% static 'lang-logo.png'%}"
+    </a>-->
+     <p style = "float: left;"> <img src="{% static 'photo.jpg'%}" height="257px" width="213px" /></p>
+    <p>
+    <h2>Russell Tsuchida</h2>
+    Postdoctoral Research Fellow (Machine Learning) <br/> 
+    Machine Learning and Artificial Intelligence Future Science Platform, Data61 <br />
+    CSIRO, Canberra, Australia </br>
+    Email: russell.tsuchida_at_data61.csiro.au</p>
+    </div>
+</div>
+
+
+<div class ="container">
+    <h3>About</h3>
+            <li class="auto-style5"><strong>Now:</strong>
+        <p> - Postdoctoral fellow at CSIRO's <a href="https://research.csiro.au/mlai-fsp/" target="_blank">MLAI Future Science Platform</a>.
+    </li>
+    
+    <li class="auto-style5"><strong>Earlier:</strong>
+        <p> - PhD student in the <a href="http://www.itee.uq.edu.au/" target="_blank">School of ITEE</a> at the <a href="https://www.uq.edu.au/" target="_blank">University of Queensland</a> advised by <a href="http://staff.itee.uq.edu.au/marcusg/" target="_blank">Assoc. Prof. Marcus Gallagher</a> and <a href="https://people.smp.uq.edu.au/FredRoosta/" target="_blank">Fred Roosta</a>.</p> 
+    </li>
+</div>
+
+
+<div class ="container">
+    <h3>News</h3> 
+                <li class="auto-style5"><strong>December, 2021:</strong> <p><a href="https://arxiv.org/abs/2112.13029" target="_blank">Gaussian Process Bandits with Aggregated Feedback</a> has been accepted into AAAI 2022 (with a controversially low acceptance rate of 15%).</p>
+    </li>     
+    
+                <li class="auto-style5"><strong>October, 2021:</strong> <p> We submitted a paper to ICLR 2022.</p>
+    </li>        
+    
+            <li class="auto-style5"><strong>October, 2021:</strong> <p> Honoured to recieve a <a href="https://nips.cc/Conferences/2021/ProgramCommittee" target="_blank">NeurIPS 2021 Outstanding Reviewer Award</a>!</p>
+    </li>        
+    
+            <li class="auto-style5"><strong>August, 2021:</strong> <p> I thoroughly enjoyed working with Mengyan Zhang and Cheng Soon Ong on <a href="https://arxiv.org/abs/2112.13029" target="_blank">Gaussian Process Bandits with Aggregated Feedback</a>.</p>
+    </li>
+    
+                <li class="auto-style5"><strong>December, 2020:</strong> <p> My doctorate has been conferred! </p>
+    </li>      
+    
+            <li class="auto-style5"><strong>December, 2020:</strong> <p> <a href="https://arxiv.org/abs/2002.08517" target="_blank">Avoiding Kernel Fixed Points: Computing with ELU and GELU Infinite Networks</a> has been accepted into AAAI 2021! </p>
+    </li> 
+    
+            <li class="auto-style5"><strong>February, 2020:</strong> <p> Very pleased to share our new work, <a href="https://arxiv.org/abs/2002.08517" target="_blank">Avoiding Kernel Fixed Points: Computing with ELU and GELU Infinite Networks</a>.</p>
+    </li> 
+    
+     <!--<li class="auto-style5"><strong>November, 2019:</strong> <p> We have a new paper on arXiv, <a href="https://arxiv.org/abs/1911.12927" target="_blank">Richer priors for infinitely wide multi-layer perceptrons</a>.</p>
+    </li> -->
+    
+    <!--<li class="auto-style5"><strong>May, 2019:</strong> <p> I am the co-author of a paper from a successful collaboration with <a href="https://github.com/TeaPearce" target="_blank"> Tim Pearce</a>,  <a href="https://arxiv.org/pdf/1905.06076.pdf" target="_blank"> Expressive Priors in Bayesian Neural Networks: Kernel Combinations and Periodic Functions</a>, which has been accepted into UAI 2019.</p>-->
+    
+    <!--<li class="auto-style5"><strong>May, 2019:</strong> <p> Our paper <a href="https://arxiv.org/abs/1810.08351" target="_blank">Exchangeability and Kernel Invariance in Trained MLPs</a> has been accepted into IJCAI 2019.</p>
+    </li> -->
+    
+    <!--<li class="auto-style5"><strong>October, 2018:</strong> <p> We have a new paper on arXiv, <a href="https://arxiv.org/abs/1810.08351" target="_blank">Exchangeability and Kernel Invariance in Trained MLPs</a>.</p>
+    </li> -->
+    
+    <!--<li class="auto-style5"><strong>May, 2018:</strong> <p> Our workshop "Rotationally Invariant Weights, the Central Limit Theorem, and Geometry of Activations in MLPs" has been accepted by <a href="http://gimli.cc/2018/" target="_blank">GiMLi 2018!</a> and I have been awarded a travel award for ICML 2018!</p>
+    </li> -->
+
+    <!--<li class="auto-style5"><strong>May, 2018:</strong> <p> Our paper "Invariance of Weight Distributions in Rectified MLPs" has been accepted into ICML 2018!</p>
+    </li> -->
+
+    <!-- <li class="auto-style5"><strong>Nov, 2017:</strong> <p> Posted a <a href="https://arxiv.org/abs/1711.09090" target="_blank">paper</a>  on the arXiv discussing invariance of neural networks with respect to weight distributions, including how the Central Limit Theorem applies to the equivalent kernel of neural networks.</p>
+    </li> -->
+
+</div>
+
+
+<div class ="container">
+    <h3>Publications</h3>
+        <li class="auto-style5"><strong>2022:</strong> <p>  Mengyan Zhang, <strong> Russell Tsuchida, </strong> Cheng Soon Ong. AAAI 2022. <a href="https://arxiv.org/abs/2112.13029" target="_blank">Gaussian Process Bandits with Aggregated Feedback.</a> AAAI 2021.</p> </li> 
+        
+    <li class="auto-style5"><strong>2021:</strong> <p> <strong>  Russell Tsuchida, </strong> Tim Pearce, Christopher van der Heide, Fred Roosta and Marcus Gallagher. <a href="https://arxiv.org/abs/2002.08517" target="_blank">Avoiding Kernel Fixed Points: Computing with ELU and GELU Infinite Networks.</a> AAAI 2021.</p> </li> 
+    
+    <li class="auto-style5"><strong>2019:</strong> <p> <strong>  Russell Tsuchida, </strong> Fred Roosta and Marcus Gallagher. <a href="https://arxiv.org/abs/1911.12927" target="_blank">Richer priors for infinitely wide multi-layer perceptrons.</a> Pre-print.</p> </li> 
+   
+    
+    <li class="auto-style5"><strong>2019:</strong> <p> Tim Pearce, <strong> Russell Tsuchida, </strong> Mohamed Zaki, Alexandra Brintrup and Andy Neely. 
+Expressive Priors in Bayesian Neural Networks: Kernel Combinations and Periodic Functions. In Conference on Uncertainty in Artificial Intelligence, 2019.</p>
+    </li>
+    <li class="auto-style5"><strong>2019:</strong> <p> <strong> Russell Tsuchida</strong>, Fred Roosta, and Marcus Gallagher. 
+Exchangeability and Kernel Invariance in Trained MLPs. In International Joint Conference on Artificial Intelligence, 2019.</p>
+    </li>
+    <li class="auto-style5"><strong>2018:</strong> <p> <strong> Russell Tsuchida</strong>, Fred Roosta, and Marcus Gallagher. <a href="http://proceedings.mlr.press/v80/tsuchida18a.html" target="_blank">Invariance of Weight Distributions in Rectified MLPs.</a> In International Conference on Machine Learning, pp. 5002-5011, 2018.</p>
+    </li>
+</div>
+
+
+<div class ="container">
+    <h3>Students</h3>
+        <li class="auto-style5">   <a href="https://mengyanz.github.io/" target="_blank">Mengyan Zhang.</a> (ANU), co-advised with <a href="http://www.ong-home.my/" target="_blank">Cheng Soon Ong,</a> 2020- </li> 
+        
+       <li class="auto-style5">  Changkun Ye (ANU), co-advised with <a href="http://users.cecs.anu.edu.au/~nmb/" target="_blank">Nick Barnes</a> and <a href="https://people.csiro.au/P/L/Lars-Petersson" target="_blank">Lars Petersson</a>, 2020- </li> 
+       
+      <li class="auto-style5">   Jing Wu (Monash), 2022- </li> 
+</div>
+
+
+
+<div class ="container">
+    <h3>Talks and Presentations</h3>
+    <li class="auto-style5"><strong>Talk at <a href="https://carma.newcastle.edu.au/meetings/dsdu/#page=programme" target="_blank">DSDU</a> </strong> <p>  
+    Newcastle, 2019</p>
+    </li>
+    
+    <li class="auto-style5"><strong>Talk at IJCAI </strong> <p>  
+    Macau, 2019</p>
+    </li>
+    
+    <li class="auto-style5"><strong>Talk at <a href="https://informs-aps.smp.uq.edu.au/" target="_blank">APS-INFORMS</a> </strong> <p>  
+    Brisbane, Australia, 2019</p>
+    </li>
+    <li class="auto-style5"><strong>Talk at International Conference on Machine Learning (ICML) </strong> <p>  
+    Stockholm, Sweden, 2018</p>
+    </li>
+    <li class="auto-style5"><strong>Poster at Geometry in Machine Learning Workshop (GiMLi) </strong> <p>  
+    Stockholm, Sweden, 2018</p>
+    </li>
+</div>
+
+
+
+
+<!--
+<div class="container">
+  <hr>
+  <div class="row">
+    <div class="col-md-6">
+      <h3><span class="glyphicon glyphicon-info-sign"></span> How this sample app works</h3>
+      <ul>
+        <li>This app was deployed to Heroku, either using Git or by using <a href="https://github.com/heroku/python-getting-started">Heroku Button</a> on the repository.</li>
+
+        <li>When Heroku received the source code, it fetched all the dependencies in the <a href="https://github.com/heroku/python-getting-started/blob/master/requirements.txt">requirements.txt file</a>, creating a deployable slug.</li>
+        <li>The platform then spins up a dyno, a lightweight container that provides an isolated environment in which the slug can be mounted and executed.</li>
+        <li>You can scale your app, manage it, and deploy over <a href="https://addons.heroku.com/">150 add-on services</a>, from the Dashboard or CLI.</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h3><span class="glyphicon glyphicon-link"></span> Next Steps</h3>
+      <ul>
+        <li>If you are following the <a href="https://devcenter.heroku.com/articles/getting-started-with-python">Getting Started</a> guide, then please head back to the tutorial and follow the next steps!</li>
+        <li>If you deployed this app by deploying the Heroku Button, then in a command line shell, run:</li>
+        <ul>
+          <li><code>git clone https://github.com/heroku/python-getting-started.git</code> - this will create a local copy of the source code for the app</li>
+          <li><code>cd python-getting-started</code> - change directory into the local source code repository</li>
+          <li><code>heroku git:remote -a &lt;your-app-name></code> - associate the Heroku app with the repository</li>
+          <li>You'll now be set up to run the app locally, or <a href="https://devcenter.heroku.com/articles/getting-started-with-python#push-local-changes">deploy changes</a> to Heroku</li>
+        </ul>
+      </ul>
+      <h3><span class="glyphicon glyphicon-link"></span> Helpful Links</h3>
+      <ul>
+        <li><a href="https://www.heroku.com/home">Heroku</a></li>
+        <li><a href="https://devcenter.heroku.com/">Heroku Dev Center</a></li>
+        <li><a href="https://devcenter.heroku.com/articles/getting-started-with-python">Getting Started with Python on Heroku</a></li>
+        <li><a href="https://devcenter.heroku.com/articles/django-app-configuration">Configuring Django Apps for Heroku</a></li>
+      </ul>
+    </div>
+-->
+{% endblock %}
